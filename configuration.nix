@@ -134,6 +134,7 @@ in
 	pamixer
 	eza
 	sutils
+	hal-hardware-analyzer
 
 	signal-desktop
 	];
