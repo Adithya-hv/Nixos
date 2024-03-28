@@ -4,6 +4,9 @@
 
 { config, pkgs, inputs, ... }:
 
+let
+	rebuild = import ./scripts.nix { inherit pkgs; };
+in
 {
 	imports =
 	[ # Include the results of the hardware scan.
@@ -108,6 +111,7 @@
 	};
 
 	environment.systemPackages = with pkgs; [
+	rebuild
 	vim 
 	wget
 	neovim
@@ -115,7 +119,7 @@
 	steam
 	discord
 	waybar
-
+	rebuild
 	# Hyprland
 	dunst
 	libnotify
