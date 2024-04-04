@@ -85,6 +85,12 @@ in
 	jack.enable = true;
 	};
 
+	programs.steam = {
+  	enable = true;
+  	remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+  	dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+	};
+
 	hardware.bluetooth.enable = true; # enables support for Bluetooth
 	services.blueman.enable = true; # Blueman GUI 
 	
@@ -116,7 +122,7 @@ in
 	wget
 	neovim
 	neofetch
-	steam
+
 	discord
 	waybar
 	rebuild
@@ -134,8 +140,6 @@ in
 	pamixer
 	eza
 	sutils
-	hal-hardware-analyzer
-
 	signal-desktop
 	];
 
