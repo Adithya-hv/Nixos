@@ -136,7 +136,7 @@ in
 	networkmanagerapplet
 	grim
 	clipman
-
+	logiops
 	pamixer
 	eza
 	sutils
