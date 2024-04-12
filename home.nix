@@ -57,12 +57,12 @@
 
       urgency_low = {
         background = "#eff1f5";
-        foreground = "#4c4f69"
+        foreground = "#4c4f69";
       };
 
       urgency_normal = {
         background = "#eff1f5";
-        foreground = "#4c4f69"
+        foreground = "#4c4f69";
       };
 
       urgency_critical = {
