@@ -71,7 +71,7 @@
         frame_color = "#fe640b";
       };
     }
-  }
+  };
 
   programs.waybar = {
     enable = true;
