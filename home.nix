@@ -70,7 +70,7 @@
         foreground = "#4c4f69";
         frame_color = "#fe640b";
       };
-    }
+    };
   };
 
   programs.waybar = {
