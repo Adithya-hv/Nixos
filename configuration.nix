@@ -131,18 +131,20 @@ in
     dunst
     libnotify
     swww
-    kitty
     rofi-wayland
     lxqt.lxqt-policykit
     networkmanagerapplet
     grim
-    clipman
+    cliphist
+    wl-clipboard
+    slurp
+    alacritty
 
     nixpkgs-fmt
-    alacritty
     cinnamon.nemo-with-extensions
-
-
+    spotify
+    obsidian
+    
     logiops
     pamixer
     eza
