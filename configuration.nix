@@ -123,11 +123,9 @@ in
     wget
     neovim
     neofetch
-
     discord
     waybar
     rebuild
-    # Hyprland
     dunst
     libnotify
     swww
@@ -139,12 +137,10 @@ in
     wl-clipboard
     slurp
     alacritty
-
     nixpkgs-fmt
     cinnamon.nemo-with-extensions
     spotify
     obsidian
-    
     logiops
     pamixer
     eza
