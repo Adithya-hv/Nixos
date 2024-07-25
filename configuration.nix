@@ -145,6 +145,8 @@ in
     pamixer
     eza
     sutils
+    disko
+    fetchutils-unstable
     signal-desktop
   ];
 
