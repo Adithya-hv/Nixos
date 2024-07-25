@@ -1,0 +1,97 @@
+[
+  {
+    "clock": {
+      "format": "{:%I:%M %p  %A %b %d}",
+      "interval": 1,
+      "tooltip": true,
+      "tooltip-format": "{=%A; %d %B %Y}\n<tt>{calendar}</tt>"
+    },
+    "cpu": {
+      "format": "󰍛 {usage}%",
+      "interval": 1
+    },
+    "custom/cava-internal": {
+      "exec": "sleep 1s && cava-internal",
+      "tooltip": false
+    },
+    "custom/launcher": {
+      "format": " ",
+      "on-click": "pkill rofi || rofi2",
+      "on-click-middle": "exec default_wall",
+      "on-click-right": "exec wallpaper_random",
+      "tooltip": false
+    },
+    "custom/powermenu": {
+      "format": "",
+      "on-click": "pkill rofi || ~/.config/rofi/powermenu/type-3/powermenu.sh",
+      "tooltip": false
+    },
+    "layer": "top",
+    "memory": {
+      "format": "󰻠 {percentage}%",
+      "interval": 1,
+      "states": {
+        "warning": 85
+      }
+    },
+    "modules-center": [
+      "clock"
+    ],
+    "modules-left": [
+      "custom/launcher",
+      "temperature",
+      "mpd",
+      "custom/cava-internal"
+    ],
+    "modules-right": [
+      "pulseaudio",
+      "backlight",
+      "memory",
+      "cpu",
+      "network",
+      "custom/powermenu",
+      "tray"
+    ],
+    "mpd": {
+      "format": "<span foreground='#bb9af7'></span> {title}",
+      "format-disconnected": "",
+      "format-paused": " {title}",
+      "format-stopped": "<span foreground='#bb9af7'></span>",
+      "max-length": 25,
+      "on-click": "mpc --quiet toggle",
+      "on-click-middle": "kitty --class='ncmpcpp' ncmpcpp ",
+      "on-click-right": "mpc update; mpc ls | mpc add",
+      "on-scroll-down": "mpc --quiet next",
+      "on-scroll-up": "mpc --quiet prev",
+      "smooth-scrolling-threshold": 5,
+      "tooltip-format": "{title} - {artist} ({elapsedTime:%M:%S}/{totalTime:%H:%M:%S})"
+    },
+    "network": {
+      "format-disconnected": "󰯡 Disconnected",
+      "format-ethernet": "󰒢 Connected!",
+      "format-linked": "󰖪 {essid} (No IP)",
+      "format-wifi": "󰖩 {essid}",
+      "interval": 1,
+      "tooltip": false
+    },
+    "position": "top",
+    "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-icons": {
+        "default": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "format-muted": "󰖁 Muted",
+      "on-click": "pamixer -t",
+      "scroll-step": 1,
+      "tooltip": false
+    },
+    "tray": {
+      "icon-size": 15,
+      "spacing": 5
+    }
+  }
+]
