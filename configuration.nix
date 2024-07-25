@@ -146,7 +146,6 @@ in
     eza
     sutils
     disko
-    fetchutils-unstable
     signal-desktop
   ];
 
