@@ -1,0 +1,17 @@
+[global]
+frame_color="#8aadf4"
+icon_path="/run/current-system/sw/share/icons/hicolor/32x32/actions:/run/current-system/sw/share/icons/hicolor/32x32/animations:/run/current-system/sw/share/icons/hicolor/32x32/apps:/run/current-system/sw/share/icons/hicolor/32x32/categories:/run/current-system/sw/share/icons/hicolor/32x32/devices:/run/current-system/sw/share/icons/hicolor/32x32/emblems:/run/current-system/sw/share/icons/hicolor/32x32/emotes:/run/current-system/sw/share/icons/hicolor/32x32/filesystem:/run/current-system/sw/share/icons/hicolor/32x32/intl:/run/current-system/sw/share/icons/hicolor/32x32/legacy:/run/current-system/sw/share/icons/hicolor/32x32/mimetypes:/run/current-system/sw/share/icons/hicolor/32x32/places:/run/current-system/sw/share/icons/hicolor/32x32/status:/run/current-system/sw/share/icons/hicolor/32x32/stock:/home/adithya/.nix-profile/share/icons/hicolor/32x32/actions:/home/adithya/.nix-profile/share/icons/hicolor/32x32/animations:/home/adithya/.nix-profile/share/icons/hicolor/32x32/apps:/home/adithya/.nix-profile/share/icons/hicolor/32x32/categories:/home/adithya/.nix-profile/share/icons/hicolor/32x32/devices:/home/adithya/.nix-profile/share/icons/hicolor/32x32/emblems:/home/adithya/.nix-profile/share/icons/hicolor/32x32/emotes:/home/adithya/.nix-profile/share/icons/hicolor/32x32/filesystem:/home/adithya/.nix-profile/share/icons/hicolor/32x32/intl:/home/adithya/.nix-profile/share/icons/hicolor/32x32/legacy:/home/adithya/.nix-profile/share/icons/hicolor/32x32/mimetypes:/home/adithya/.nix-profile/share/icons/hicolor/32x32/places:/home/adithya/.nix-profile/share/icons/hicolor/32x32/status:/home/adithya/.nix-profile/share/icons/hicolor/32x32/stock:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/actions:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/animations:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/apps:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/categories:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/devices:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/emblems:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/emotes:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/filesystem:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/intl:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/legacy:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/mimetypes:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/places:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/status:/nix/store/wb5vnw2wrq3d9w5lgw5ny49ykqpjag4q-hicolor-icon-theme-0.17/share/icons/hicolor/32x32/stock"
+separator_color="frame"
+
+[urgency_critical]
+background="#24273a"
+foreground="#cad3f5"
+frame_color="#f5a97f"
+
+[urgency_low]
+background="#24273a"
+foreground="#cad3f5"
+
+[urgency_normal]
+background="#24273a"
+foreground="#cad3f5"

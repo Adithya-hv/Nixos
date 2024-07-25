@@ -1,0 +1,4 @@
+
+//@theme "/nix/store/a552rgsfg856ihq08bxn6dn41wj82m4j-rofi-1.7.5+wayland3/share/rofi/themes/DarkBlue.rasi"
+
+@theme "~/.config/rofi/dracula.rasi"
